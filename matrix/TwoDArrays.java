@@ -19,5 +19,15 @@ public class TwoDArrays {
             }
             System.out.println();
         }
+        System.out.print("Enter the target number");
+        int x = sc.nextInt();
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (twodarrays[i][j] == x) {
+                    System.out.printf("X found at location %d and %d", i, j);
+                }
+            }
+            System.out.println();
+        }
     }
 }
